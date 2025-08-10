@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#02050e"/>
+    </radialGradient>
+    <style>
+      .title{font:700 52px "Segoe UI",Arial,sans-serif; fill:#f5e9c8;}
+      .label{font:400 28px "Segoe UI",Arial,sans-serif; fill:#e8dec6;}
+      .sym{font:700 46px "Times New Roman",serif; fill:#f5e9c8;}
+      .small{font:400 22px "Segoe UI",Arial,sans-serif; fill:#cfc7ae;}
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <!-- stars -->
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="80" cy="120" r="1.5"/><circle cx="230" cy="50" r="1.2"/>
+    <circle cx="450" cy="90" r="1.4"/><circle cx="700" cy="60" r="1.3"/>
+    <circle cx="980" cy="100" r="1.6"/><circle cx="1120" cy="40" r="1.1"/>
+    <circle cx="180" cy="300" r="1.2"/><circle cx="360" cy="420" r="1.5"/>
+    <circle cx="920" cy="380" r="1.3"/><circle cx="1080" cy="540" r="1.4"/>
+  </g>
+
+  <!-- crossed orbits -->
+  <line x1="250" y1="170" x2="980" y2="500" stroke="#9fb3ff" stroke-opacity="0.3" stroke-width="2"/>
+  <line x1="250" y1="500" x2="980" y2="170" stroke="#9fb3ff" stroke-opacity="0.3" stroke-width="2"/>
+
+  <!-- Jupiter disc -->
+  <circle cx="240" cy="335" r="90" fill="#ddbb6a" opacity="0.95"/>
+  <circle cx="240" cy="335" r="90" fill="none" stroke="#f8e7b3" stroke-width="3" opacity="0.6"/>
+
+  <!-- symbols -->
+  <text class="sym" x="430" y="190">Θ</text>
+  <text class="label" x="470" y="194">dynamic alterity / altérité dynamique</text>
+
+  <text class="sym" x="430" y="480">&amp;ₐ</text>
+  <text class="label" x="490" y="484">adjusted affection (under κ/ρ)</text>
+
+  <text class="sym" x="960" y="220">∂</text>
+  <text class="label" x="995" y="224">soft clause (G &gt; threshold)</text>
+
+  <text class="sym" x="960" y="520">⨀</text>
+  <text class="label" x="995" y="524">human-benefit loop</text>
+
+  <!-- title -->
+  <text class="title" x="90" y="600">Scala 3.1 — Jupiter-seed</text>
+  <text class="small" x="90" y="630">
+    ℵ • G • &amp;ₐ • κ • ρ • ∂ • ⨀  —  Open ethos → Scala 4 (Jupiter-∞)
+  </text>
+</svg>
